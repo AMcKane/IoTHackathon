@@ -1,0 +1,8 @@
+SELECT
+    DeviceId, SensorName, AVG(XVal) AS XVal, AVG(YVal) AS YVal, AVG(ZVal) AS ZVal
+INTO
+    iotzumotestoutputAlias
+FROM
+    iotzumotest
+TIMESTAMP BY EventTime
+GROUP BY DeviceId, SensorName, TumblingWindow(second, 5)
