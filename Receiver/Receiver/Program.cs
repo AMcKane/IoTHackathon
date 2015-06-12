@@ -25,13 +25,12 @@ namespace Receiver
 
             string eventHubName = "iotzumotestoutput";
             //string eventHubConnectionString = "Endpoint=sb://iotzumotesthub-ns.servicebus.windows.net/;SharedAccessKeyName=SendRule;SharedAccessKey=CYDZ6eaorXLHQYCyBbxdeDA7xKqhjQPV9X8epjNLXuM=";
-            string eventHubConnectionString =
-                "Endpoint=sb://iotzumotesthub-ns.servicebus.windows.net/;SharedAccessKeyName=SendRule;SharedAccessKey=/u2mH7BFiK9nxYxVN2degMqdwQOyEwxzhhcNvExG3+M=";
+            string eventHubConnectionString = "removedFromSauce";
             
             
             string storageAccountName = "iotzumoteststorage";
 
-            string storageAccountKey = "6fFAWRAI8iTK0QiHcI8Ghwb1IFwtlikKQBYVLkMOgFVaMA4mhXZH19gloawrY7pYVLAnqyrcQwPtzjEjeB1ADg==";
+            string storageAccountKey = "abc123";
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}",
                 storageAccountName, storageAccountKey);
 

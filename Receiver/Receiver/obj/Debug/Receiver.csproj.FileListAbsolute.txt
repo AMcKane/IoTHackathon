@@ -1,0 +1,1 @@
+C:\Dev\IoTHackathon\EventHub2\Receiver\Receiver\bin\Debug\Receiver.exe.config

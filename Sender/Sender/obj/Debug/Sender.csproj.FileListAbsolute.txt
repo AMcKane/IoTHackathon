@@ -1,0 +1,1 @@
+C:\Dev\IoTHackathon\EventHub2\Sender\Sender\bin\Debug\Sender.exe.config

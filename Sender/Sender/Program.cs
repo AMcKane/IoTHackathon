@@ -10,7 +10,7 @@ namespace Sender
     {
 
         static string eventHubName = "iotzumotesthub";
-        static string connectionString = "Endpoint=sb://iotzumotesthub-ns.servicebus.windows.net/;SharedAccessKeyName=SendRule;SharedAccessKey=CYDZ6eaorXLHQYCyBbxdeDA7xKqhjQPV9X8epjNLXuM=";
+        static string connectionString = "Endpoint=pathremoved;SharedAccessKeyName=SendRule;SharedAccessKey=KeyRemoved=";
 
         static void Main(string[] args)
         {
